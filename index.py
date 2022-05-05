@@ -131,7 +131,7 @@ btn_start_photo = PhotoImage(file="button_start_image.png")
 btn_start = Button(root, image=btn_start_photo, command=btn_start_cmd).place(x=760, y=950)
 
 btn_exit_photo = PhotoImage(file="button_exit_image.png")
-btn_exit = Button(root, image=btn_exit_photo, command=root.quit).place(x=980, y=950) 
+btn_exit = Button(root, image=btn_exit_photo, command=root.quit).place(x=980, y=950)
 
 
 
